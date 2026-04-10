@@ -1,15 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <iframe
-        src="https://www.google.com/maps/embed/v1/view?key=YOUR_API_KEY&center=-1.2921,36.8219&q=Old+Waiyaki+Way+Nairobi+Kenya"
-        width="600"
-        height="450"
-        frameborder="0"
-        style="border:0" allowfullscreen>
-    </iframe>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section>
+            <h2>Find Us Here</h2>
+            <iframe
+                src="https://www.google.com/maps/embed/v1/view?key=YOUR_API_KEY&center=-1.286389,36.817223&zoom=18" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Your Company</p>
+    </footer>
 </body>
 </html>
