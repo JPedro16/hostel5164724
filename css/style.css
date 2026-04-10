@@ -698,6 +698,7 @@ button {
      font-size: 18px;
      font-weight: normal;
      box-shadow: 2px 0px 6px rgba(255, 9, 9, 0.20);
+     appearance: auto;
 }
 
 .main_form .textarea {
@@ -749,6 +750,45 @@ button {
 
 
 /** end contact section **/
+
+
+/** support info box **/
+
+.support_info {
+     background: #f4f5f7;
+     padding: 30px;
+     margin-bottom: 25px;
+}
+
+.support_info_title {
+     color: #121212;
+     font-weight: 600;
+     border-bottom: #ff0909 solid 3px;
+     display: table;
+     padding-bottom: 3px;
+     margin-bottom: 20px;
+}
+
+.support_info_list li {
+     color: #333;
+     padding-bottom: 12px;
+}
+
+.support_info_list li i {
+     padding-right: 10px;
+     font-size: 18px;
+}
+
+.support_info_list li a {
+     color: #ff0909;
+}
+
+.support_info_list li a:hover {
+     color: #121212;
+}
+
+
+/** end support info box **/
 
 
 /** footer **/
